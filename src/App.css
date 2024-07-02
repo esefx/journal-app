@@ -1,0 +1,71 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* white */
+    color: #000000; /* black */
+  }
+  
+  .app {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-header {
+    background-color: #ffffff; /* white */
+    padding: 20px;
+    color: #000000; /* black */
+    font-family: Arial, sans-serif;
+    border-bottom: 1px solid #000000; /* black */
+  }
+  
+  .app-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .app-description {
+    padding: 20px 0;
+    line-height: 1.6;
+    text-align: left;
+    margin: 20px;
+  }
+  
+  button {
+    background-color: #ffffff; /* white */
+    color: #000000; /* black */
+    border: 2px solid #000000; /* black */
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #000000; /* black */
+    color: #ffffff; /* white */
+  }
+  
+  h1, h2 {
+    color: #000000; /* black */
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    margin-top: 40px;
+  }
+  
+  /* Accent elements */
+  .accent {
+    color: #000000; /* black */
+  }
+  
+  .accent-bg {
+    background-color: #ffffff; /* white */
+  }
