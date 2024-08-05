@@ -69,3 +69,26 @@ body {
   .accent-bg {
     background-color: #ffffff; /* white */
   }
+
+  .audio-entry {
+    margin-bottom: 20px;
+}
+
+.emotion-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.emotion-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.emotion-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: grey; /* Default color */
+}

@@ -39,11 +39,10 @@ const AudioRecorder = ({ onAudioData }) => {
         };
         setAudioChunks(localAudioChunks)
     };
-
     const stopRecording = async () => {
         setRecordingStatus("inactive");
-        mediaRecorder.current.stop()
-        mediaRecorder.current.onstop = () => {
+        mediaRecorder.current.stop();
+        mediaRecorder.current.onstop = async () => {
             const audioBlob = new Blob(audioChunks, { type: 'audio/mp3;'});
             const audioURL = URL.createObjectURL(audioBlob);
             setAudio(audioURL);
@@ -54,22 +53,18 @@ const AudioRecorder = ({ onAudioData }) => {
             reader.onloadend = async () => {
                 const base64String = reader.result;
     
-                // Send the audio data to the server
-                axios.post('https://7055-2601-282-2380-df70-70df-1159-1407-c347.ngrok-free.app/form', {
-                    audioData: base64String
-                })
-                .then(response => {
-                    console.log(response.data);
-                })
-                .catch(error => {
+                try {
+                    const response = await axios.post('http://localhost:5000/journal', {
+                        audioData: base64String
+                    });
+                    const { emotions } = response.data;
+                    onAudioData({ audioURL, emotions });
+                } catch (error) {
                     console.error('Error:', error);
-                });
-    
-                onAudioData(base64String)
+                }
             }
         };
-    };
-
+    };    
 
     return (
         <div>

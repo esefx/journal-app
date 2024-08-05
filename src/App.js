@@ -21,7 +21,7 @@ function App() {
       </p>
 
       <button onClick={() => setShowIntakeForm(!showIntakeForm)}>Intake Form</button>
-      <button onClick={() => setShowVoiceJournal(!showVoiceJournal)}>Voice Journal</button>
+      <button onClick={() => setShowVoiceJournal(!showVoiceJournal)}>Journal</button>
 
       {showIntakeForm && (
         <>
