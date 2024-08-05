@@ -1,0 +1,1466 @@
+[
+	{
+		"source": {
+			"type": "file",
+			"filename": "Test for Hume.mp3",
+			"content_type": "audio/mpeg",
+			"md5sum": "849c93a9e05693ac4fc4d3716aa94f42"
+		},
+		"results": {
+			"predictions": [
+				{
+					"file": "Test for Hume.mp3",
+					"file_type": "audio",
+					"models": {
+						"burst": {
+							"metadata": null,
+							"grouped_predictions": [
+								{
+									"id": "unknown",
+									"predictions": [
+										{
+											"time": {
+												"begin": 7.0,
+												"end": 8.0
+											},
+											"emotions": [
+												{
+													"name": "Admiration",
+													"score": 0.04860997200012207
+												},
+												{
+													"name": "Adoration",
+													"score": 0.029886825010180473
+												},
+												{
+													"name": "Aesthetic Appreciation",
+													"score": 0.026117848232388496
+												},
+												{
+													"name": "Amusement",
+													"score": 0.07259708642959595
+												},
+												{
+													"name": "Anger",
+													"score": 0.10592412203550339
+												},
+												{
+													"name": "Anxiety",
+													"score": 0.0771729052066803
+												},
+												{
+													"name": "Awe",
+													"score": 0.057147812098264694
+												},
+												{
+													"name": "Awkwardness",
+													"score": 0.11704345047473907
+												},
+												{
+													"name": "Boredom",
+													"score": 0.1493956297636032
+												},
+												{
+													"name": "Calmness",
+													"score": 0.07824187725782394
+												},
+												{
+													"name": "Concentration",
+													"score": 0.060571253299713135
+												},
+												{
+													"name": "Confusion",
+													"score": 0.0825570747256279
+												},
+												{
+													"name": "Contemplation",
+													"score": 0.09039744734764099
+												},
+												{
+													"name": "Contempt",
+													"score": 0.14005430042743683
+												},
+												{
+													"name": "Contentment",
+													"score": 0.0441385842859745
+												},
+												{
+													"name": "Craving",
+													"score": 0.05502478778362274
+												},
+												{
+													"name": "Desire",
+													"score": 0.10248538851737976
+												},
+												{
+													"name": "Determination",
+													"score": 0.06501736491918564
+												},
+												{
+													"name": "Disappointment",
+													"score": 0.15053224563598633
+												},
+												{
+													"name": "Disgust",
+													"score": 0.09936963021755219
+												},
+												{
+													"name": "Distress",
+													"score": 0.2084910124540329
+												},
+												{
+													"name": "Doubt",
+													"score": 0.10886366665363312
+												},
+												{
+													"name": "Ecstasy",
+													"score": 0.0713147521018982
+												},
+												{
+													"name": "Embarrassment",
+													"score": 0.06758781522512436
+												},
+												{
+													"name": "Empathic Pain",
+													"score": 0.057200413197278976
+												},
+												{
+													"name": "Entrancement",
+													"score": 0.036620307713747025
+												},
+												{
+													"name": "Envy",
+													"score": 0.023520158603787422
+												},
+												{
+													"name": "Excitement",
+													"score": 0.06842163950204849
+												},
+												{
+													"name": "Fear",
+													"score": 0.07029451429843903
+												},
+												{
+													"name": "Guilt",
+													"score": 0.037672221660614014
+												},
+												{
+													"name": "Horror",
+													"score": 0.0551731176674366
+												},
+												{
+													"name": "Interest",
+													"score": 0.09297586977481842
+												},
+												{
+													"name": "Joy",
+													"score": 0.06573348492383957
+												},
+												{
+													"name": "Love",
+													"score": 0.02873602695763111
+												},
+												{
+													"name": "Nostalgia",
+													"score": 0.023470740765333176
+												},
+												{
+													"name": "Pain",
+													"score": 0.1290477216243744
+												},
+												{
+													"name": "Pride",
+													"score": 0.046483684331178665
+												},
+												{
+													"name": "Realization",
+													"score": 0.10478021204471588
+												},
+												{
+													"name": "Relief",
+													"score": 0.07263345271348953
+												},
+												{
+													"name": "Romance",
+													"score": 0.046251099556684494
+												},
+												{
+													"name": "Sadness",
+													"score": 0.039779290556907654
+												},
+												{
+													"name": "Satisfaction",
+													"score": 0.12944941222667694
+												},
+												{
+													"name": "Shame",
+													"score": 0.05700022354722023
+												},
+												{
+													"name": "Surprise (negative)",
+													"score": 0.02748076245188713
+												},
+												{
+													"name": "Surprise (positive)",
+													"score": 0.0440790131688118
+												},
+												{
+													"name": "Sympathy",
+													"score": 0.022183852270245552
+												},
+												{
+													"name": "Tiredness",
+													"score": 0.15545545518398285
+												},
+												{
+													"name": "Triumph",
+													"score": 0.04206433519721031
+												}
+											],
+											"descriptions": [
+												{
+													"name": "Ah",
+													"score": 0.033901605755090714
+												},
+												{
+													"name": "Aha",
+													"score": 0.0068192267790436745
+												},
+												{
+													"name": "Ahh",
+													"score": 0.03750604763627052
+												},
+												{
+													"name": "Argh",
+													"score": 0.0600380077958107
+												},
+												{
+													"name": "Aww",
+													"score": 0.017696760594844818
+												},
+												{
+													"name": "Cackle",
+													"score": 0.021033234894275665
+												},
+												{
+													"name": "Cheer",
+													"score": 0.01722797192633152
+												},
+												{
+													"name": "Chuckle",
+													"score": 0.049590982496738434
+												},
+												{
+													"name": "Cry",
+													"score": 0.025676680728793144
+												},
+												{
+													"name": "Eek",
+													"score": 0.022651204839348793
+												},
+												{
+													"name": "Eww",
+													"score": 0.028252357617020607
+												},
+												{
+													"name": "Gasp",
+													"score": 0.04875632002949715
+												},
+												{
+													"name": "Giggle",
+													"score": 0.018665017560124397
+												},
+												{
+													"name": "Groan",
+													"score": 0.16059598326683044
+												},
+												{
+													"name": "Growl",
+													"score": 0.07593975961208344
+												},
+												{
+													"name": "Grr",
+													"score": 0.045665111392736435
+												},
+												{
+													"name": "Grunt",
+													"score": 0.1439959704875946
+												},
+												{
+													"name": "Ha",
+													"score": 0.007387072779238224
+												},
+												{
+													"name": "Hah",
+													"score": 0.01083351019769907
+												},
+												{
+													"name": "Haha",
+													"score": 0.01355780754238367
+												},
+												{
+													"name": "Hehe",
+													"score": 0.022705694660544395
+												},
+												{
+													"name": "Hiss",
+													"score": 0.01018715649843216
+												},
+												{
+													"name": "Hmm",
+													"score": 0.061399564146995544
+												},
+												{
+													"name": "Hoot",
+													"score": 0.017365584149956703
+												},
+												{
+													"name": "Howl",
+													"score": 0.01580493152141571
+												},
+												{
+													"name": "Huh",
+													"score": 0.026966242119669914
+												},
+												{
+													"name": "Hurray",
+													"score": 0.004660965874791145
+												},
+												{
+													"name": "Laugh",
+													"score": 0.03119569830596447
+												},
+												{
+													"name": "Mhm",
+													"score": 0.048196807503700256
+												},
+												{
+													"name": "Mmm",
+													"score": 0.07334266602993011
+												},
+												{
+													"name": "Moan",
+													"score": 0.09109839051961899
+												},
+												{
+													"name": "Oh",
+													"score": 0.03053015097975731
+												},
+												{
+													"name": "Ohh",
+													"score": 0.028758028522133827
+												},
+												{
+													"name": "Ooh",
+													"score": 0.023754317313432693
+												},
+												{
+													"name": "Ooph",
+													"score": 0.01700686849653721
+												},
+												{
+													"name": "Ouch",
+													"score": 0.005177768878638744
+												},
+												{
+													"name": "Oww",
+													"score": 0.022975696250796318
+												},
+												{
+													"name": "Pant",
+													"score": 0.031580716371536255
+												},
+												{
+													"name": "Pff",
+													"score": 0.010125627741217613
+												},
+												{
+													"name": "Phew",
+													"score": 0.009204283356666565
+												},
+												{
+													"name": "Roar",
+													"score": 0.02670937404036522
+												},
+												{
+													"name": "Scream",
+													"score": 0.013759234920144081
+												},
+												{
+													"name": "Screech",
+													"score": 0.018952438607811928
+												},
+												{
+													"name": "Shout",
+													"score": 0.0205196812748909
+												},
+												{
+													"name": "Shriek",
+													"score": 0.02332858182489872
+												},
+												{
+													"name": "Sigh",
+													"score": 0.05937632545828819
+												},
+												{
+													"name": "Snicker",
+													"score": 0.02147737331688404
+												},
+												{
+													"name": "Snort",
+													"score": 0.036613382399082184
+												},
+												{
+													"name": "Sob",
+													"score": 0.025276659056544304
+												},
+												{
+													"name": "Squeal",
+													"score": 0.02593410201370716
+												},
+												{
+													"name": "Tsk",
+													"score": 0.011088958941400051
+												},
+												{
+													"name": "Ugh",
+													"score": 0.08395065367221832
+												},
+												{
+													"name": "Uh",
+													"score": 0.04994843527674675
+												},
+												{
+													"name": "Uh-huh",
+													"score": 0.022344794124364853
+												},
+												{
+													"name": "Umm",
+													"score": 0.01954863779246807
+												},
+												{
+													"name": "Wail",
+													"score": 0.04002944380044937
+												},
+												{
+													"name": "Whee",
+													"score": 0.011137228459119797
+												},
+												{
+													"name": "Wheep",
+													"score": 0.02102920413017273
+												},
+												{
+													"name": "Whew",
+													"score": 0.0216115303337574
+												},
+												{
+													"name": "Whimper",
+													"score": 0.05939558148384094
+												},
+												{
+													"name": "Woah",
+													"score": 0.008942541666328907
+												},
+												{
+													"name": "Wow",
+													"score": 0.010865550488233566
+												},
+												{
+													"name": "Yawn",
+													"score": 0.020350323989987373
+												},
+												{
+													"name": "Yay",
+													"score": 0.008173592388629913
+												},
+												{
+													"name": "Yelp",
+													"score": 0.023527314886450768
+												},
+												{
+													"name": "Yippee",
+													"score": 0.021818077191710472
+												},
+												{
+													"name": "Yuck",
+													"score": 0.042267847806215286
+												}
+											]
+										},
+										{
+											"time": {
+												"begin": 19.0,
+												"end": 20.0
+											},
+											"emotions": [
+												{
+													"name": "Admiration",
+													"score": 0.06933703273534775
+												},
+												{
+													"name": "Adoration",
+													"score": 0.04769550636410713
+												},
+												{
+													"name": "Aesthetic Appreciation",
+													"score": 0.03724837303161621
+												},
+												{
+													"name": "Amusement",
+													"score": 0.13577087223529816
+												},
+												{
+													"name": "Anger",
+													"score": 0.06001109629869461
+												},
+												{
+													"name": "Anxiety",
+													"score": 0.07686244696378708
+												},
+												{
+													"name": "Awe",
+													"score": 0.10266166180372238
+												},
+												{
+													"name": "Awkwardness",
+													"score": 0.08250334858894348
+												},
+												{
+													"name": "Boredom",
+													"score": 0.1463933140039444
+												},
+												{
+													"name": "Calmness",
+													"score": 0.11376331001520157
+												},
+												{
+													"name": "Concentration",
+													"score": 0.07434985786676407
+												},
+												{
+													"name": "Confusion",
+													"score": 0.07914714515209198
+												},
+												{
+													"name": "Contemplation",
+													"score": 0.10668899118900299
+												},
+												{
+													"name": "Contempt",
+													"score": 0.1357724517583847
+												},
+												{
+													"name": "Contentment",
+													"score": 0.07562588900327682
+												},
+												{
+													"name": "Craving",
+													"score": 0.048077598214149475
+												},
+												{
+													"name": "Desire",
+													"score": 0.07526549696922302
+												},
+												{
+													"name": "Determination",
+													"score": 0.04773222282528877
+												},
+												{
+													"name": "Disappointment",
+													"score": 0.1764204055070877
+												},
+												{
+													"name": "Disgust",
+													"score": 0.06988313049077988
+												},
+												{
+													"name": "Distress",
+													"score": 0.14474131166934967
+												},
+												{
+													"name": "Doubt",
+													"score": 0.15011532604694366
+												},
+												{
+													"name": "Ecstasy",
+													"score": 0.08738872408866882
+												},
+												{
+													"name": "Embarrassment",
+													"score": 0.05030110850930214
+												},
+												{
+													"name": "Empathic Pain",
+													"score": 0.05140737071633339
+												},
+												{
+													"name": "Entrancement",
+													"score": 0.04639605060219765
+												},
+												{
+													"name": "Envy",
+													"score": 0.03731268644332886
+												},
+												{
+													"name": "Excitement",
+													"score": 0.09511896967887878
+												},
+												{
+													"name": "Fear",
+													"score": 0.06812401860952377
+												},
+												{
+													"name": "Guilt",
+													"score": 0.02020876295864582
+												},
+												{
+													"name": "Horror",
+													"score": 0.06049073487520218
+												},
+												{
+													"name": "Interest",
+													"score": 0.12343479692935944
+												},
+												{
+													"name": "Joy",
+													"score": 0.11300478130578995
+												},
+												{
+													"name": "Love",
+													"score": 0.047077640891075134
+												},
+												{
+													"name": "Nostalgia",
+													"score": 0.026582147926092148
+												},
+												{
+													"name": "Pain",
+													"score": 0.07356757670640945
+												},
+												{
+													"name": "Pride",
+													"score": 0.0509701706469059
+												},
+												{
+													"name": "Realization",
+													"score": 0.15402308106422424
+												},
+												{
+													"name": "Relief",
+													"score": 0.11454443633556366
+												},
+												{
+													"name": "Romance",
+													"score": 0.054444197565317154
+												},
+												{
+													"name": "Sadness",
+													"score": 0.0372665673494339
+												},
+												{
+													"name": "Satisfaction",
+													"score": 0.16463184356689453
+												},
+												{
+													"name": "Shame",
+													"score": 0.04119348153471947
+												},
+												{
+													"name": "Surprise (negative)",
+													"score": 0.04434993490576744
+												},
+												{
+													"name": "Surprise (positive)",
+													"score": 0.07592896372079849
+												},
+												{
+													"name": "Sympathy",
+													"score": 0.03566882386803627
+												},
+												{
+													"name": "Tiredness",
+													"score": 0.15672457218170166
+												},
+												{
+													"name": "Triumph",
+													"score": 0.05606042966246605
+												}
+											],
+											"descriptions": [
+												{
+													"name": "Ah",
+													"score": 0.07263730466365814
+												},
+												{
+													"name": "Aha",
+													"score": 0.024001644924283028
+												},
+												{
+													"name": "Ahh",
+													"score": 0.08083724975585938
+												},
+												{
+													"name": "Argh",
+													"score": 0.03487629070878029
+												},
+												{
+													"name": "Aww",
+													"score": 0.03677624464035034
+												},
+												{
+													"name": "Cackle",
+													"score": 0.030452821403741837
+												},
+												{
+													"name": "Cheer",
+													"score": 0.02228793315589428
+												},
+												{
+													"name": "Chuckle",
+													"score": 0.07124990969896317
+												},
+												{
+													"name": "Cry",
+													"score": 0.02310018613934517
+												},
+												{
+													"name": "Eek",
+													"score": 0.006453120149672031
+												},
+												{
+													"name": "Eww",
+													"score": 0.01553739421069622
+												},
+												{
+													"name": "Gasp",
+													"score": 0.0723818689584732
+												},
+												{
+													"name": "Giggle",
+													"score": 0.042326755821704865
+												},
+												{
+													"name": "Groan",
+													"score": 0.06563596427440643
+												},
+												{
+													"name": "Growl",
+													"score": 0.024065738543868065
+												},
+												{
+													"name": "Grr",
+													"score": 0.017193559557199478
+												},
+												{
+													"name": "Grunt",
+													"score": 0.0379631482064724
+												},
+												{
+													"name": "Ha",
+													"score": 0.02257450856268406
+												},
+												{
+													"name": "Hah",
+													"score": 0.03780129924416542
+												},
+												{
+													"name": "Haha",
+													"score": 0.04597403109073639
+												},
+												{
+													"name": "Hehe",
+													"score": 0.023150796070694923
+												},
+												{
+													"name": "Hiss",
+													"score": 0.004033660050481558
+												},
+												{
+													"name": "Hmm",
+													"score": 0.07474243640899658
+												},
+												{
+													"name": "Hoot",
+													"score": 0.032737232744693756
+												},
+												{
+													"name": "Howl",
+													"score": 0.019756190478801727
+												},
+												{
+													"name": "Huh",
+													"score": 0.05008631572127342
+												},
+												{
+													"name": "Hurray",
+													"score": 0.01023427490144968
+												},
+												{
+													"name": "Laugh",
+													"score": 0.0683288648724556
+												},
+												{
+													"name": "Mhm",
+													"score": 0.03906871750950813
+												},
+												{
+													"name": "Mmm",
+													"score": 0.05983290076255798
+												},
+												{
+													"name": "Moan",
+													"score": 0.07131899893283844
+												},
+												{
+													"name": "Oh",
+													"score": 0.022100063040852547
+												},
+												{
+													"name": "Ohh",
+													"score": 0.05621720477938652
+												},
+												{
+													"name": "Ooh",
+													"score": 0.03606605902314186
+												},
+												{
+													"name": "Ooph",
+													"score": 0.009946106933057308
+												},
+												{
+													"name": "Ouch",
+													"score": 0.001549602602608502
+												},
+												{
+													"name": "Oww",
+													"score": 0.014669961296021938
+												},
+												{
+													"name": "Pant",
+													"score": 0.013955381698906422
+												},
+												{
+													"name": "Pff",
+													"score": 0.006282583810389042
+												},
+												{
+													"name": "Phew",
+													"score": 0.013936992734670639
+												},
+												{
+													"name": "Roar",
+													"score": 0.01162454392760992
+												},
+												{
+													"name": "Scream",
+													"score": 0.01825203001499176
+												},
+												{
+													"name": "Screech",
+													"score": 0.01647637039422989
+												},
+												{
+													"name": "Shout",
+													"score": 0.024195795878767967
+												},
+												{
+													"name": "Shriek",
+													"score": 0.019821185618638992
+												},
+												{
+													"name": "Sigh",
+													"score": 0.10414770990610123
+												},
+												{
+													"name": "Snicker",
+													"score": 0.02689099684357643
+												},
+												{
+													"name": "Snort",
+													"score": 0.008769473060965538
+												},
+												{
+													"name": "Sob",
+													"score": 0.021783500909805298
+												},
+												{
+													"name": "Squeal",
+													"score": 0.03279445320367813
+												},
+												{
+													"name": "Tsk",
+													"score": 0.004463076125830412
+												},
+												{
+													"name": "Ugh",
+													"score": 0.06340089440345764
+												},
+												{
+													"name": "Uh",
+													"score": 0.025497587397694588
+												},
+												{
+													"name": "Uh-huh",
+													"score": 0.020581554621458054
+												},
+												{
+													"name": "Umm",
+													"score": 0.02109288051724434
+												},
+												{
+													"name": "Wail",
+													"score": 0.032460082322359085
+												},
+												{
+													"name": "Whee",
+													"score": 0.008883901871740818
+												},
+												{
+													"name": "Wheep",
+													"score": 0.022595446556806564
+												},
+												{
+													"name": "Whew",
+													"score": 0.018095679581165314
+												},
+												{
+													"name": "Whimper",
+													"score": 0.03494177758693695
+												},
+												{
+													"name": "Woah",
+													"score": 0.01198219321668148
+												},
+												{
+													"name": "Wow",
+													"score": 0.013232609257102013
+												},
+												{
+													"name": "Yawn",
+													"score": 0.018076973035931587
+												},
+												{
+													"name": "Yay",
+													"score": 0.006415591575205326
+												},
+												{
+													"name": "Yelp",
+													"score": 0.020787810906767845
+												},
+												{
+													"name": "Yippee",
+													"score": 0.018752191215753555
+												},
+												{
+													"name": "Yuck",
+													"score": 0.01492457278072834
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						"prosody": {
+							"metadata": {
+								"confidence": 0.9970703,
+								"detected_language": "en"
+							},
+							"grouped_predictions": [
+								{
+									"id": "spk_0",
+									"predictions": [
+										{
+											"text": "I was a little surprised that you have to turn off the host output in order to get the clear sound on Zoom, But as it turns out, think it's because on Zoom, it is picking up also the loop back one. That is also counting as... Input, the output is also cutting as, so that's very weird.",
+											"time": {
+												"begin": 0.5972477,
+												"end": 29.940506
+											},
+											"confidence": null,
+											"speaker_confidence": null,
+											"emotions": [
+												{
+													"name": "Admiration",
+													"score": 0.04107968881726265
+												},
+												{
+													"name": "Adoration",
+													"score": 0.014950700104236603
+												},
+												{
+													"name": "Aesthetic Appreciation",
+													"score": 0.045082155615091324
+												},
+												{
+													"name": "Amusement",
+													"score": 0.11617068201303482
+												},
+												{
+													"name": "Anger",
+													"score": 0.04126105085015297
+												},
+												{
+													"name": "Anxiety",
+													"score": 0.022582504898309708
+												},
+												{
+													"name": "Awe",
+													"score": 0.03863884508609772
+												},
+												{
+													"name": "Awkwardness",
+													"score": 0.12044735252857208
+												},
+												{
+													"name": "Boredom",
+													"score": 0.1383824497461319
+												},
+												{
+													"name": "Calmness",
+													"score": 0.13108332455158234
+												},
+												{
+													"name": "Concentration",
+													"score": 0.21632663905620575
+												},
+												{
+													"name": "Confusion",
+													"score": 0.09706567972898483
+												},
+												{
+													"name": "Contemplation",
+													"score": 0.2727408707141876
+												},
+												{
+													"name": "Contempt",
+													"score": 0.04525628313422203
+												},
+												{
+													"name": "Contentment",
+													"score": 0.01910586468875408
+												},
+												{
+													"name": "Craving",
+													"score": 0.008547989651560783
+												},
+												{
+													"name": "Desire",
+													"score": 0.0049669560976326466
+												},
+												{
+													"name": "Determination",
+													"score": 0.05713201314210892
+												},
+												{
+													"name": "Disappointment",
+													"score": 0.09347041696310043
+												},
+												{
+													"name": "Disgust",
+													"score": 0.049471307545900345
+												},
+												{
+													"name": "Distress",
+													"score": 0.027422813698649406
+												},
+												{
+													"name": "Doubt",
+													"score": 0.1197892278432846
+												},
+												{
+													"name": "Ecstasy",
+													"score": 0.011740113608539104
+												},
+												{
+													"name": "Embarrassment",
+													"score": 0.01946891099214554
+												},
+												{
+													"name": "Empathic Pain",
+													"score": 0.01308334618806839
+												},
+												{
+													"name": "Entrancement",
+													"score": 0.031277552247047424
+												},
+												{
+													"name": "Envy",
+													"score": 0.015774225816130638
+												},
+												{
+													"name": "Excitement",
+													"score": 0.033519197255373
+												},
+												{
+													"name": "Fear",
+													"score": 0.011028851382434368
+												},
+												{
+													"name": "Guilt",
+													"score": 0.005344994831830263
+												},
+												{
+													"name": "Horror",
+													"score": 0.013149462640285492
+												},
+												{
+													"name": "Interest",
+													"score": 0.10723112523555756
+												},
+												{
+													"name": "Joy",
+													"score": 0.015625163912773132
+												},
+												{
+													"name": "Love",
+													"score": 0.00406250637024641
+												},
+												{
+													"name": "Nostalgia",
+													"score": 0.009626762941479683
+												},
+												{
+													"name": "Pain",
+													"score": 0.007178747095167637
+												},
+												{
+													"name": "Pride",
+													"score": 0.013248689472675323
+												},
+												{
+													"name": "Realization",
+													"score": 0.1855042278766632
+												},
+												{
+													"name": "Relief",
+													"score": 0.02545211650431156
+												},
+												{
+													"name": "Romance",
+													"score": 0.004388628993183374
+												},
+												{
+													"name": "Sadness",
+													"score": 0.025803372263908386
+												},
+												{
+													"name": "Satisfaction",
+													"score": 0.029619021341204643
+												},
+												{
+													"name": "Shame",
+													"score": 0.00918177142739296
+												},
+												{
+													"name": "Surprise (negative)",
+													"score": 0.07177051156759262
+												},
+												{
+													"name": "Surprise (positive)",
+													"score": 0.06783272325992584
+												},
+												{
+													"name": "Sympathy",
+													"score": 0.012940725311636925
+												},
+												{
+													"name": "Tiredness",
+													"score": 0.04142485558986664
+												},
+												{
+													"name": "Triumph",
+													"score": 0.018457219004631042
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						"language": {
+							"metadata": {
+								"confidence": 0.9970703,
+								"detected_language": "en"
+							},
+							"grouped_predictions": [
+								{
+									"id": "spk_0",
+									"predictions": [
+										{
+											"text": "I was a little surprised that you have to turn off the host output in order to get the clear sound on Zoom, But as it turns out, think it's because on Zoom, it is picking up also the loop back one. That is also counting as... Input, the output is also cutting as, so that's very weird.",
+											"position": {
+												"begin": 0,
+												"end": 285
+											},
+											"time": {
+												"begin": 0.5972477,
+												"end": 29.940506
+											},
+											"confidence": null,
+											"speaker_confidence": null,
+											"emotions": [
+												{
+													"name": "Admiration",
+													"score": 0.003880363656207919
+												},
+												{
+													"name": "Adoration",
+													"score": 0.0010460985358804464
+												},
+												{
+													"name": "Aesthetic Appreciation",
+													"score": 0.037753667682409286
+												},
+												{
+													"name": "Amusement",
+													"score": 0.009925591759383678
+												},
+												{
+													"name": "Anger",
+													"score": 0.0014552371576428413
+												},
+												{
+													"name": "Annoyance",
+													"score": 0.037895914167165756
+												},
+												{
+													"name": "Anxiety",
+													"score": 0.02245417982339859
+												},
+												{
+													"name": "Awe",
+													"score": 0.009551099501550198
+												},
+												{
+													"name": "Awkwardness",
+													"score": 0.04307855665683746
+												},
+												{
+													"name": "Boredom",
+													"score": 0.006728609092533588
+												},
+												{
+													"name": "Calmness",
+													"score": 0.033120300620794296
+												},
+												{
+													"name": "Concentration",
+													"score": 0.21639126539230347
+												},
+												{
+													"name": "Confusion",
+													"score": 0.5863677859306335
+												},
+												{
+													"name": "Contemplation",
+													"score": 0.38353198766708374
+												},
+												{
+													"name": "Contempt",
+													"score": 0.011772575788199902
+												},
+												{
+													"name": "Contentment",
+													"score": 0.004218817688524723
+												},
+												{
+													"name": "Craving",
+													"score": 0.0009993728017434478
+												},
+												{
+													"name": "Desire",
+													"score": 0.0018549264641478658
+												},
+												{
+													"name": "Determination",
+													"score": 0.010738149285316467
+												},
+												{
+													"name": "Disappointment",
+													"score": 0.04191749542951584
+												},
+												{
+													"name": "Disapproval",
+													"score": 0.05086676776409149
+												},
+												{
+													"name": "Disgust",
+													"score": 0.006250699982047081
+												},
+												{
+													"name": "Distress",
+													"score": 0.02344580367207527
+												},
+												{
+													"name": "Doubt",
+													"score": 0.09046408534049988
+												},
+												{
+													"name": "Ecstasy",
+													"score": 0.0007708818884566426
+												},
+												{
+													"name": "Embarrassment",
+													"score": 0.007280163001269102
+												},
+												{
+													"name": "Empathic Pain",
+													"score": 0.008445900864899158
+												},
+												{
+													"name": "Enthusiasm",
+													"score": 0.00793828722089529
+												},
+												{
+													"name": "Entrancement",
+													"score": 0.02900802157819271
+												},
+												{
+													"name": "Envy",
+													"score": 0.0004604530695360154
+												},
+												{
+													"name": "Excitement",
+													"score": 0.0031771366484463215
+												},
+												{
+													"name": "Fear",
+													"score": 0.011573068797588348
+												},
+												{
+													"name": "Gratitude",
+													"score": 0.0007496030884794891
+												},
+												{
+													"name": "Guilt",
+													"score": 0.0017768106190487742
+												},
+												{
+													"name": "Horror",
+													"score": 0.005997911095619202
+												},
+												{
+													"name": "Interest",
+													"score": 0.2458440065383911
+												},
+												{
+													"name": "Joy",
+													"score": 0.0008456053328700364
+												},
+												{
+													"name": "Love",
+													"score": 0.00041762119508348405
+												},
+												{
+													"name": "Nostalgia",
+													"score": 0.003587101586163044
+												},
+												{
+													"name": "Pain",
+													"score": 0.0038039705250412226
+												},
+												{
+													"name": "Pride",
+													"score": 0.0011223357869312167
+												},
+												{
+													"name": "Realization",
+													"score": 0.3399255573749542
+												},
+												{
+													"name": "Relief",
+													"score": 0.0021825172007083893
+												},
+												{
+													"name": "Romance",
+													"score": 0.0008097348036244512
+												},
+												{
+													"name": "Sadness",
+													"score": 0.00432437751442194
+												},
+												{
+													"name": "Sarcasm",
+													"score": 0.003284893464297056
+												},
+												{
+													"name": "Satisfaction",
+													"score": 0.009894791059195995
+												},
+												{
+													"name": "Shame",
+													"score": 0.005319160874933004
+												},
+												{
+													"name": "Surprise (negative)",
+													"score": 0.13295115530490875
+												},
+												{
+													"name": "Surprise (positive)",
+													"score": 0.026532186195254326
+												},
+												{
+													"name": "Sympathy",
+													"score": 0.005529891233891249
+												},
+												{
+													"name": "Tiredness",
+													"score": 0.0016871654661372304
+												},
+												{
+													"name": "Triumph",
+													"score": 0.002010456984862685
+												}
+											],
+											"sentiment": [
+												{
+													"name": "1",
+													"score": 0.00153347325976938
+												},
+												{
+													"name": "2",
+													"score": 0.005339802708476782
+												},
+												{
+													"name": "3",
+													"score": 0.008608235977590084
+												},
+												{
+													"name": "4",
+													"score": 0.027667339891195297
+												},
+												{
+													"name": "5",
+													"score": 0.9077975749969482
+												},
+												{
+													"name": "6",
+													"score": 0.030553970485925674
+												},
+												{
+													"name": "7",
+													"score": 0.014324644580483437
+												},
+												{
+													"name": "8",
+													"score": 0.0077187055721879005
+												},
+												{
+													"name": "9",
+													"score": 0.006030140444636345
+												}
+											],
+											"toxicity": null
+										}
+									]
+								}
+							]
+						}
+					}
+				}
+			],
+			"errors": []
+		}
+	}
+]
