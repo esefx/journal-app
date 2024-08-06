@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import AudioRecorder from './AudioRecorder';
 
-// map of emotion names to colors
+//map of emotion names to colors
 const emotionColors = {
     "Confusion": "#FFA07A",   // Light Salmon
     "Contemplation": "#20B2AA", // Light Sea Green
     "Realization": "#FFD700"  // Gold
-
+    // Add more emotions and colors as needed
 };
 
 const VoiceJournal = () => {

@@ -107,32 +107,48 @@ const IntakeForm = () => {
               <button type="button" onClick={nextStep}>Next</button>
             </form>
           );
-          case 5:
-            return (
-              <form>
-                <h1>Consent</h1>
-          
-                <label htmlFor="consent">I consent to the use of my information for the purposes of receiving support through this app.</label>
-                <input type="checkbox" id="consent" name="consent" onChange={handleChange} />
-          
-                <label htmlFor="privacy">I understand that the information provided will be used confidentially and in accordance with privacy regulations.</label>
-                <input type="checkbox" id="privacy" name="privacy" onChange={handleChange} />
-          
-                <button type="button" onClick={prevStep}>Back</button>
-                <button type="button" onClick={nextStep}>Next</button>
-              </form>
-            );
-          case 6:
-            return (
-              <form>
-                <h1>Signature</h1>
-          
-                <label htmlFor="signature">Your signature (if physical form) / Tick box (if digital form)</label>
-                <input type="checkbox" id="signature" name="signature" onChange={handleChange} />
-          
-                <button type="button" onClick={prevStep}>Back</button>
-              </form>
-            );
+        case 5:
+          return (
+            <form>
+              <h1>Additional Information</h1>
+
+              <label htmlFor="source">How did you hear about this app? (healthcare team, family, friend, internet search, other)</label>
+              <input type="text" id="source" name="source" onChange={handleChange} />
+
+              <label htmlFor="expectations">What are your expectations from this app? (postpartum support, track my postpartum journey, resources, best doctors to go to for black moms)</label>
+              <textarea id="expectations" name="expectations" onChange={handleChange} />
+
+              <button type="button" onClick={prevStep}>Back</button>
+              <button type="button" onClick={nextStep}>Next</button>
+            </form>
+          );
+
+        case 6:
+          return (
+            <form>
+              <h1>Consent</h1>
+        
+              <label htmlFor="consent">I consent to the use of my information for the purposes of receiving support through this app.</label>
+              <input type="checkbox" id="consent" name="consent" onChange={handleChange} />
+        
+              <label htmlFor="privacy">I understand that the information provided will be used confidentially and in accordance with privacy regulations.</label>
+              <input type="checkbox" id="privacy" name="privacy" onChange={handleChange} />
+        
+              <button type="button" onClick={prevStep}>Back</button>
+              <button type="button" onClick={nextStep}>Next</button>
+            </form>
+          );
+        case 7:
+          return (
+            <form>
+              <h1>Signature</h1>
+        
+              <label htmlFor="signature">Your signature (if physical form) / Tick box (if digital form)</label>
+              <input type="checkbox" id="signature" name="signature" onChange={handleChange} />
+        
+              <button type="button" onClick={prevStep}>Back</button>
+            </form>
+          );
     // Add more cases as needed for additional steps
     default:
       return (
@@ -141,6 +157,7 @@ const IntakeForm = () => {
           <label htmlFor="agree_terms">I agree to the terms and conditions</label>
           <input type="checkbox" id="agree_terms" name="agree_terms" onChange={handleChange} />
           <button type="button" onClick={prevStep}>Back</button>
+          <button type="button"> Submit </button>
         </form>
       );
   }

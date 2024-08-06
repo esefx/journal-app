@@ -43,28 +43,36 @@ const AudioRecorder = ({ onAudioData }) => {
         setRecordingStatus("inactive");
         mediaRecorder.current.stop();
         mediaRecorder.current.onstop = async () => {
-            const audioBlob = new Blob(audioChunks, { type: 'audio/mp3;'});
+            const audioBlob = new Blob(audioChunks, { type: 'audio/mp3;' });
             const audioURL = URL.createObjectURL(audioBlob);
             setAudio(audioURL);
             setAudioChunks([]);
-    
+
             const reader = new FileReader();
             reader.readAsDataURL(audioBlob);
             reader.onloadend = async () => {
                 const base64String = reader.result;
-    
+
                 try {
+                    //Send audio data and get job_id
                     const response = await axios.post('http://localhost:5000/journal', {
                         audioData: base64String
                     });
-                    const { emotions } = response.data;
+                    const { job_id } = response.data.job_id;
+
+                    await delay(3000);
+
+                    //Fetch emotions using the job_id
+                    const emotionsResponse = await axios.get(`http://localhost:5000/journal/jobs/${job_id}`);
+                    const emotions = emotionsResponse.data;
+
                     onAudioData({ audioURL, emotions });
                 } catch (error) {
                     console.error('Error:', error);
                 }
-            }
+            };
         };
-    };    
+    };   
 
     return (
         <div>
