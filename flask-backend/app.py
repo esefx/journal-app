@@ -45,8 +45,7 @@ def journal():
 
     # Call Hume AI API
     if audio_file_path:
-        analyze_audio(audio_file_path)
-        return 'Audio Received and Saved!'
+        return analyze_audio(audio_file_path)
     return 'no file path found'
 
 
@@ -67,6 +66,7 @@ def analyze_audio(audio_file):
     print(resp.text)
     print(resp.json())
     print("End of journal")
+    return resp.json()
 
 
 # @app.post('/form')
@@ -80,3 +80,20 @@ def analyze_audio(audio_file):
 # @app.post('/callback')
 # def notify():
 #     return 1
+
+@app.route("/journal/jobs/<job_id>") #TODO: query params for returns raw response vs returns filtered
+@cross_origin()
+def jobs(job_id):
+    resp = requests.get(HUME_AI_BASE_URL + f"/{job_id}/predictions")
+    j = resp.json()
+    models_responses = j[0]["results"]["predictions"][0]["models"]  # dict of models
+
+    l = []
+    for k in models_responses:
+        # there is potential for duplicates of emotions* TODO: fix later
+        l.extend(models_responses[k]["grouped_predictions"][0]["predictions"][0][
+                     "emotions"])  # emotions has more than 1 time-span for predictions.
+
+    sorted_l = sorted(l, key=lambda x: x["score"], reverse=True)
+
+    return sorted_l
