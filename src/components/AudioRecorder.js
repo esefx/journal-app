@@ -39,6 +39,9 @@ const AudioRecorder = ({ onAudioData }) => {
         };
         setAudioChunks(localAudioChunks)
     };
+
+    const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
     const stopRecording = async () => {
         setRecordingStatus("inactive");
         mediaRecorder.current.stop();
