@@ -84,7 +84,11 @@ def analyze_audio(audio_file):
 @app.route("/journal/jobs/<job_id>") #TODO: query params for returns raw response vs returns filtered
 @cross_origin()
 def jobs(job_id):
-    resp = requests.get(HUME_AI_BASE_URL + f"/{job_id}/predictions")
+    resp = requests.get(HUME_AI_BASE_URL + f"/{job_id}/predictions",
+                        headers={
+                            'X-Hume-Api-Key': HUME_API_KEY
+                        }
+                        )
     j = resp.json()
     models_responses = j[0]["results"]["predictions"][0]["models"]  # dict of models
 
@@ -96,4 +100,4 @@ def jobs(job_id):
 
     sorted_l = sorted(l, key=lambda x: x["score"], reverse=True)
 
-    return sorted_l
+    return sorted_l[:3]
