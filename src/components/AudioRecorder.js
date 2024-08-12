@@ -50,18 +50,19 @@ const AudioRecorder = ({ onAudioData }) => {
             const audioURL = URL.createObjectURL(audioBlob);
             setAudio(audioURL);
             setAudioChunks([]);
-
-            const reader = new FileReader();
-            reader.readAsDataURL(audioBlob);
-            reader.onloadend = async () => {
-                const base64String = reader.result;
-
-                try {
+            try {
+                    const fd = new FormData();
+                    fd.append('file', audioBlob, 'audio.mp3');
                     //Send audio data and get job_id
-                    const response = await axios.post('http://localhost:5000/journal', {
-                        audioData: base64String
-                    });
-                    const { job_id } = response.data.job_id;
+                    const response = await axios.post(
+                        'http://localhost:5000/journal',
+                        fd,
+                        {
+                            headers: {
+                                "Content-Type": "multipart/form-data"
+                            }
+                        });
+                    const { job_id } = response.data;
 
                     await delay(3000);
 
@@ -73,7 +74,6 @@ const AudioRecorder = ({ onAudioData }) => {
                 } catch (error) {
                     console.error('Error:', error);
                 }
-            };
         };
     };   
 
